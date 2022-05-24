@@ -1,0 +1,14 @@
+{
+  "observed_output": "observed_fluor",
+  "intended_output": {
+    "col": "intended_output",
+    "off": "min",
+    "on": "max"
+  },
+  "group_cols_dict": {
+    "exp_str": ["experiment_id", "strain"],
+    "exp_str_ts": ["experiment_id", "strain", "output_id"],
+    "exp_str_ts_rep": ["experiment_id", "strain", "output_id", "replicate"]
+  },
+  "sample_id": "sample_id"
+}

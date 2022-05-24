@@ -1,0 +1,16 @@
+name: sd2-perform_metrics
+channels:
+- defaults
+dependencies:
+    - python=3.7
+    - numpy
+    - scipy
+    - matplotlib
+    - pandas=0.24
+    - seaborn
+    - pytest = 5.0.0
+
+    - pip:
+      - pytest-html
+      - pytest-timeout
+      - agavepy
